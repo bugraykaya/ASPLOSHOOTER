@@ -20,6 +20,7 @@ MainWindow::MainWindow(QWidget *parent):QMainWindow(parent)
     display = new Display();
     setCentralWidget(display);
     display->parent = this;
+    setSizePolicy(QSizePolicy(QSizePolicy::Fixed,QSizePolicy::Fixed));
     
 }
 MainWindow::~MainWindow()
@@ -535,6 +536,7 @@ Display::Display()
     
     
     poki = new Actor();
+    
     connect(&timer, SIGNAL(timeout()), this, SLOT(mainLoop()) );
     
     
