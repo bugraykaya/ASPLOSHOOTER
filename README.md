@@ -1,5 +1,6 @@
 # ASPLOSHOOTER
-GotY 2018
+A 2d shooter game. 
 
-someone port it to windows pls.
-window, sound, input etc are made with qt so it should be quite portable.
+Shooting sound downloaded from freesound.org
+
+Someone port it to Windows please. Code should be mostly portable. You probably only need to change the project file.
